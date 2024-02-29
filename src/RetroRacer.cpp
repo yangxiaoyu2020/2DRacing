@@ -235,7 +235,7 @@ protected:
 		}
 		
 		// Draw Stats
-		DrawString(0, 0, L"Distance: " + std::to_wstring(fDistance));
+		DrawString(0, 0, L"Distance:         " + std::to_wstring(fDistance));
 		DrawString(0, 1, L"Target Curvature: " + std::to_wstring(fCurvature));
 		DrawString(0, 2, L"Player Curvature: " + std::to_wstring(fPlayerCurvature));
 		DrawString(0, 3, L"Player Speed    : " + std::to_wstring(fSpeed));
